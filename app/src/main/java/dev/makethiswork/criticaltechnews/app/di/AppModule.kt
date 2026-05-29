@@ -5,13 +5,16 @@ import dev.makethiswork.criticaltechnews.BuildConfig
 import dev.makethiswork.criticaltechnews.articles.data.NewsApiService
 import dev.makethiswork.criticaltechnews.articles.data.NewsArticleRepository
 import dev.makethiswork.criticaltechnews.articles.domain.ArticleRepository
+import dev.makethiswork.criticaltechnews.articles.presentation.list.ArticlesViewModel
 import dev.makethiswork.criticaltechnews.core.data.networking.HttpClientFactory
 import okhttp3.OkHttpClient
 import org.koin.core.module.dsl.singleOf
+import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.bind
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
+import java.time.Clock
 
 val appModule = module {
     single {
@@ -33,4 +36,7 @@ val appModule = module {
     }
 
     singleOf(::NewsArticleRepository) bind ArticleRepository::class
+
+    single { Clock.systemDefaultZone() }
+    viewModelOf(::ArticlesViewModel)
 }
