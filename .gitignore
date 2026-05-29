@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Local-only working docs (challenge brief digest, scratch notes)
+/docs/
