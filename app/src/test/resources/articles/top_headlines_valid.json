@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "Reporter",
+      "title": "Hello world",
+      "description": "A description",
+      "url": "https://example.com/1",
+      "urlToImage": "https://example.com/1.png",
+      "publishedAt": "2026-05-29T08:00:00Z",
+      "content": "Body"
+    }
+  ]
+}
