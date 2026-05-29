@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": { "id": null, "name": null },
+      "author": null,
+      "title": "[Removed]",
+      "description": null,
+      "url": "https://example.com/removed",
+      "urlToImage": null,
+      "publishedAt": "2026-05-29T08:00:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "CNN" },
+      "author": null,
+      "title": "Valid",
+      "description": null,
+      "url": "https://example.com/valid",
+      "urlToImage": null,
+      "publishedAt": "2026-05-29T08:00:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": null },
+      "author": null,
+      "title": "No URL",
+      "description": null,
+      "url": null,
+      "urlToImage": null,
+      "publishedAt": "2026-05-29T08:00:00Z",
+      "content": null
+    }
+  ]
+}
