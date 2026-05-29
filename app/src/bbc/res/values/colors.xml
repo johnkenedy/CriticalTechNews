@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ds_accent">#C8102E</color>
+    <color name="ds_accent_dim">#9E0C24</color>
+    <color name="ds_masthead_bg">#FFFFFF</color>
+    <color name="ds_masthead_on">#16140F</color>
+</resources>
